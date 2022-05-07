@@ -16,7 +16,7 @@ export default class Component {
         }
         
         // Store the HTML element to attach the render to if set
-        if(props.hasOwnProperty('element')) {
+        if(props.hasOwnProperty()) {
             this.element = props.element;
         }
     }
